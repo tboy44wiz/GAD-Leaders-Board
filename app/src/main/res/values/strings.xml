@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GADS LeaderBoard</string>
+    <string name="screen_one_boarding_image">Screen One boarding Image</string>
+    <string name="screen_two_boarding_image">Screen Two boarding Image</string>
+    <string name="screen_three_boarding_image">Screen Three boarding Image</string>
+
+    <string name="screen_one_boarding_title">Screen One Title</string>
+    <string name="screen_two_boarding_title">Screen Two Title</string>
+    <string name="screen_three_boarding_title">Screen Three Title</string>
+
+    <string name="screen_one_boarding_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="screen_two_boarding_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="screen_three_boarding_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+
+    <string name="previous">Previous</string>
+    <string name="lets_start">Let\'s Start</string>
+
+    <string name="name_one">Kojo Asante</string>
+    <string name="name_two">Kojo Asante</string>
+    <string name="name_three">Kojo Yeboah</string>
+
+    <string name="num_one">1</string>
+    <string name="num_two">2</string>
+    <string name="num_three">3</string>
+
+    <string name="image_description">Badge image</string>
+    <string name="score">109</string>
+    <string name="country">Country</string>
+    <string name="submit">Submit</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">email</string>
+    <string name="github_link">GitHub Link</string>
+
+</resources>

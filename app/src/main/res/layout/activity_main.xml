@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="@drawable/onboarding_gradient_background"
+    android:paddingHorizontal="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_height="0dp"
+        android:layout_width="300dp"
+        android:layout_weight="5"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/screen_one_boarding_image"
+        app:srcCompat="@drawable/winner_screen_three" />
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="4"
+        android:weightSum="4"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:fontFamily="@font/raleway_bold"
+            android:gravity="center"
+            android:text="@string/screen_one_boarding_title"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#E764FD"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/raleway"
+            android:lineSpacingExtra="4sp"
+            android:text="@string/screen_one_boarding_description"
+            android:textAlignment="center"
+            android:textColor="@color/colorGray"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/gradient_button"
+            android:drawableEnd="@drawable/arrow_right"
+            android:fontFamily="@font/raleway_bold"
+            android:minWidth="0dp"
+            android:onClick="handleNextButton"
+            android:paddingHorizontal="90dp"
+            android:text="@string/lets_start"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
